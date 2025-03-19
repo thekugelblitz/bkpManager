@@ -99,6 +99,6 @@ If you want to contribute, feel free to fork and submit a PR! 🚀
 ---
 
 ## **📜 License**
-This script is released under the **MIT License**. You are free to modify and use it for commercial or personal use. Attribution is appreciated! 😊
+This script is released under the **GNU GENERAL PUBLIC LICENSE Version 3**. You are free to modify and use it for commercial or personal use. Attribution is appreciated! 😊
 
 ---
