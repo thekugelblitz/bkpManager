@@ -34,7 +34,7 @@ This script is designed specifically for **web hosting providers** who already h
 ## **📦 Installation**
 1. **Download & Save** the script on your cPanel server:
    ```bash
-   wget -O /usr/local/bin/bkpManager.sh https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO/main/bkpManager.sh
+   wget -O /usr/local/bin/bkpManager.sh https://raw.githubusercontent.com/thekugelblitz/bkpManager/main/bkpManager.sh
    chmod +x /usr/local/bin/bkpManager.sh
    ```
 2. **Run manually or schedule it via cron**.
@@ -49,7 +49,7 @@ To scan a single cPanel user and remove backup files:
 ```
 For example:
 ```bash
-./bkpManager.sh codebudd
+./bkpManager.sh USERNAME
 ```
 
 ### **🔄 Restore Permissions**
@@ -74,11 +74,11 @@ To restore permissions for all:
 - Logs are stored in `/var/log/bkpManager/`
 - Example log output:
   ```
-  🔍 Scanning user: codebudd
-  ⚠️ Backup directories found under codebudd:
-    📂 /home/codebudd/public_html/wp-content/ai1wm-backups
-  🗑️ Removed backup files from /home/codebudd/public_html/wp-content/ai1wm-backups
-  🔒 Restricted: /home/codebudd/public_html/wp-content/ai1wm-backups (Permissions: 0000)
+  🔍 Scanning user: USERNAME
+  ⚠️ Backup directories found under USERNAME:
+    📂 /home/USERNAME/public_html/wp-content/ai1wm-backups
+  🗑️ Removed backup files from /home/USERNAME/public_html/wp-content/ai1wm-backups
+  🔒 Restricted: /home/USERNAME/public_html/wp-content/ai1wm-backups (Permissions: 0000)
   📊 Disk usage before: 12GB | After: 9GB
   ```
 
