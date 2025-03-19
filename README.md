@@ -1,7 +1,3 @@
-Here's the full **README.md** file you can directly copy and paste to your GitHub repository:
-
----
-
 # **bkpManager v2.4 - Advanced Backup Enforcement & Protection for cPanel Servers** 🚀
 
 **Version:** 2.4 (Nuclear Fix)  
