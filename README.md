@@ -1,7 +1,7 @@
 # **bkpManager v2.4 - Advanced Backup Enforcement & Protection for cPanel Servers** 🚀
 
 **Version:** 2.4 (Nuclear Fix)  
-**Author:** Dhruval Joshi from [HostingSpell](https://hostingspell.com)  
+**Author:** Developed by **Dhruval Joshi from [HostingSpell.com](https://hostingspell.com/)**. | Personal: [TheDhruval.com](https://thedhruval.com/)
 **GitHub:** [@thekugelblitz](https://github.com/thekugelblitz)  
 
 ---
