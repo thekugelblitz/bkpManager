@@ -102,12 +102,3 @@ If you want to contribute, feel free to fork and submit a PR! 🚀
 This script is released under the **MIT License**. You are free to modify and use it for commercial or personal use. Attribution is appreciated! 😊
 
 ---
-
-### **💡 Future Improvements**
-- Support for additional backup plugins.
-- Web-based UI for easier monitoring.
-- Automated reports on backup storage consumption.
-
----
-
-This **README.md** is **ready to copy-paste** into your GitHub repository. Let me know if you need any tweaks! 🚀
