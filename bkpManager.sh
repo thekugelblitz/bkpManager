@@ -1,7 +1,8 @@
 #!/bin/bash
-# bkpManager v2.4 - Scan Backup Folder with Deletion of Files within & Permission Manager 
+# bkpManager v2.4 - Guaranteed Scan Backup Folder with Deletion of Files within & Permission Manager 
 # Version: 2.4 (Nuclear Fix)
 # Author: Dhruval Joshi from HostingSpell LLP.
+
 
 LOG_DIR="/var/log/bkpManager"
 mkdir -p "$LOG_DIR"
@@ -62,7 +63,7 @@ enforce_backup_policy() {
 
     [[ -z "$found_dirs" ]] && log "✅ No backup directories found for $username." && return
 
-    log ⚠️ Backup directories found under $username:"
+    log "⚠️ Backup directories found under $username:"
     for dir in $found_dirs; do
         [[ "$dir" =~ "/tmp" ]] && continue
         log "   📂 $dir"
