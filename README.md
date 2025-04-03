@@ -86,7 +86,7 @@ After deleting backup files, the directory is **set to `0000` permissions**, mak
 2. **Impossible for users to create new backups**.
 3. **Still exists** (instead of being deleted), preventing the backup plugin from regenerating it.
 
-**This ensures backups are not stored locally while allowing the hosting provider’s backup solution to operate.**
+**This ensures that backups are not stored locally while allowing the hosting provider’s backup solution to operate.**
 
 ---
 
@@ -99,6 +99,6 @@ If you want to contribute, feel free to fork and submit a PR! 🚀
 ---
 
 ## **📜 License**
-This script is released under the **GNU GENERAL PUBLIC LICENSE Version 3**. You are free to modify and use it for commercial or personal use. Attribution is appreciated! 😊
+This script is released under the **GNU GENERAL PUBLIC LICENSE Version 3**. You are free to modify and use it for commercial or personal use. I would appreciate your contribution! 😊
 
 ---
